@@ -27,7 +27,7 @@ button {
   cursor: pointer;
   padding-inline: 1rem;
   padding-block: 0.2rem;
-  background-color: aqua;
+  background-color: hsl(208, 73%, 42%);
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.2rem;
