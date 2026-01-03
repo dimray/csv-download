@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CSV Download</title>
+  </head>
+  <body>
+    <h1>CSV Download</h1>
+    <form id="csv-form" onsubmit="return false;">
+      <label for="input">Paste the data that you want in a csv file into the box below, then name your file and click 'download csv'</label>
+
+      <textarea id="input" rows="12" placeholder="Paste here" spellcheck="false"></textarea>
+
+      <div class="file-name">
+        <label for="filename">Name your file:</label>
+        <input type="text" id="filename" value="csv-download" placeholder="csv-download" />
+      </div>
+
+      <button type="button" id="download">Download CSV</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

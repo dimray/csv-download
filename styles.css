@@ -1,0 +1,47 @@
+body {
+  font-family: system-ui, sans-serif;
+}
+
+label {
+  display: block;
+}
+
+p,
+label {
+  max-width: 500px;
+}
+
+textarea {
+  font-family: monospace;
+  white-space: pre;
+  display: block;
+  margin-block: 1rem;
+  width: 80vw;
+  max-width: 600px;
+  height: 60vh;
+  max-height: 1000px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding-inline: 1rem;
+  padding-block: 0.2rem;
+  background-color: aqua;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.file-name {
+  display: flex;
+  justify-content: flex-start;
+
+  gap: 1rem;
+  margin-block: 1rem;
+}
+
+.file-name input[type="text"] {
+  border: none;
+  border-block-end: 1px dotted;
+}
