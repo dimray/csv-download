@@ -1,5 +1,6 @@
 body {
   font-family: system-ui, sans-serif;
+  margin-inline: min(1rem, 5vw);
 }
 
 label {
