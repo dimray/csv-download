@@ -7,8 +7,7 @@ label {
   display: block;
 }
 
-p,
-label {
+form {
   max-width: 600px;
 }
 
@@ -17,7 +16,7 @@ textarea {
   white-space: pre;
   display: block;
   margin-block: 1rem;
-  width: 80vw;
+  width: 100%;
   max-width: 600px;
   height: 60vh;
   max-height: 1000px;
