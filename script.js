@@ -3,7 +3,7 @@ document.getElementById("download").addEventListener("click", () => {
   const rawText = textarea.value;
 
   if (!rawText.trim()) {
-    alert("Please paste some data from your spreadsheet.");
+    alert("Please add some data before downloading");
     return;
   }
 
