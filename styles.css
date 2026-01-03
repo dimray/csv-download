@@ -46,3 +46,11 @@ button {
   border: none;
   border-block-end: 1px dotted;
 }
+
+.file-name input[type="text"]:focus {
+  border: none;
+}
+
+.file-name input[type="text"]:active {
+  border: 1px solid;
+}
