@@ -4,6 +4,11 @@ body {
   background-color: hsl(0, 0%, 92%);
 }
 
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 label {
   display: block;
 }
