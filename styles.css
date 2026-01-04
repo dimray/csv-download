@@ -3,7 +3,6 @@
 body {
   font-family: system-ui, sans-serif;
   margin-inline: min(1rem, 5vw);
-  background-color: hsl(0, 0%, 92%);
 }
 
 h1 {
@@ -28,7 +27,6 @@ textarea {
   max-width: 600px;
   height: 60vh;
   max-height: 1000px;
-  background-color: hsl(0, 0%, 97%);
   border-radius: 2px;
 }
 
@@ -55,7 +53,6 @@ button {
 .file-name input[type="text"] {
   border: none;
   border-block-end: 1px dotted;
-  background-color: hsl(0, 0%, 95%);
 }
 
 .file-name input[type="text"]:active {
