@@ -62,3 +62,36 @@ button {
 .file-name input[type="text"]:focus {
   outline: none;
 }
+
+body {
+  background-color: hsl(0, 0%, 94%);
+}
+
+textarea {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.file-name input[type="text"] {
+  background-color: hsl(0, 0%, 96%);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 90%);
+  }
+
+  textarea {
+    background-color: hsl(0, 0%, 15%);
+    color: hsl(0, 0%, 90%);
+  }
+
+  .file-name input[type="text"] {
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 90%);
+  }
+
+  button {
+    background-color: hsl(208, 73%, 22%);
+  }
+}
