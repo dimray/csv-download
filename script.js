@@ -44,7 +44,10 @@ function spreadsheetPasteToCsv(text) {
         .split("\t")
         .map((cell) => {
           const cleaned = cell.trim();
-          return `"${cleaned.replace(/"/g, '""')}"`;
+          if (/[",\n]/.test(cleaned)) {
+            return `"${cleaned.replace(/"/g, '""')}"`;
+          }
+          return cleaned;
         })
         .join(",")
     )
