@@ -29,7 +29,7 @@ document.getElementById("download").addEventListener("click", () => {
   document.body.appendChild(a);
   a.click();
 
-  alert(`Your file "${filename}" has started downloading.\n\nCheck your downloads folder.`);
+  alert(`Your file "${filename}" has been downloaded.\n\nCheck your downloads folder.`);
 
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
@@ -49,7 +49,7 @@ function spreadsheetPasteToCsv(text) {
           }
           return cleaned;
         })
-        .join(",")
+        .join(","),
     )
     .join("\n");
 }
